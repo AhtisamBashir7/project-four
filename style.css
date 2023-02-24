@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+
+body {
+    height: 100%;
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 60px 12px 60px;
+    /* margin-top: 55px; */
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 62px;
+    list-style: none;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+
+.logo,
+.list-item {
+    cursor: pointer;
+}
+
+.logo {
+    height: 40px;
+}
+
+.vertical-bar {
+    border-left: 2px solid #ffffff;
+    height: 45px;
+    color: #ffffff;
+
+}
+
+.small-button {
+    padding: 8px 40px;
+    background-color: #ba0cc5;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    color: #ffffff;
+    font-family: "Dela Gothic One", cursive;
+    padding: 100px 0 100px 0;
+}
+
+.hero h1 {
+    font-family: "Dela Gothic One", cursive;
+    font-weight: 900;
+    font-size: 56px;
+
+}
+
+.hero p {
+    font-weight: 900;
+    font-size: 26px;
+    font-weight: 600px;
+}
+
+.hero-button {
+    padding: 12px 40px;
+    background-color: #ba0cc5;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    cursor: pointer;
+}
